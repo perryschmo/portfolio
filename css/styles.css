@@ -3848,6 +3848,23 @@ td:last-child {
         max-width: 80vw;
     }
 
+    .s-intro__content-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--vspace-0_5);
+        margin-top: var(--vspace-1);
+        width: 100%;
+    }
+
+    .s-intro__content-btns .btn {
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
+        max-width: 200px;
+        display: block;
+    }
+
     .s-intro__social {
         display: none;
     }
